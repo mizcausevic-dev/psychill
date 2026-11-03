@@ -1,0 +1,56 @@
+preview, not a master
+{
+  "arrangement_path": "midi/k01-moss-lantern/arrangement.mid",
+  "arrangement_sha256": "ae21e36877ed253ca442cc856d5fdf346c535525dd89fa3fd461ce4ae8a58d28",
+  "encode": "libmp3lame CBR 192 kbps, stereo, from a 44.1 kHz 16-bit WAV",
+  "excerpt": {
+    "bar_count": 16,
+    "bars": "17-32",
+    "bpm": 98,
+    "end_tick": 122880,
+    "kit": "k01",
+    "sequencing": "Every placed part of the arrangement in that window, from the arrangement file as written.",
+    "start_tick": 61440,
+    "title": "Moss Lantern",
+    "transposition": "none"
+  },
+  "intermediate_wav": "build/preview.wav",
+  "intermediate_wav_note": "The WAV is gitignored build storage. The delivered preview is the MP3.",
+  "intermediate_wav_sha256": "9e9bd921c7a90b7706f9207a25aa8122d0de864c73b38951e95e60c751c74675",
+  "label": "preview, not a master",
+  "listening": "No human listening audition was performed for this build.",
+  "mapping": {
+    "bass": "Band-limited saw or sine at the written pitch, held for the written duration. It stands in for a bass instrument. It is not a bass sample.",
+    "drums": "Bass drum is a falling sine, snare and clap are noise bursts, hats and crash are filtered noise. The MIDI pitch selects the voice. No controller is read.",
+    "keys": "Additive sine tones at the written pitches with a decaying envelope. It stands in for the keys. It is not an instrument sample.",
+    "motif": "A single oscillator voice with a slow attack, at the written pitch, plus a send to a simple noise reverb.",
+    "pad": "Three detuned saw oscillators through a low-pass filter with a slow attack, plus a reverb send.",
+    "sequence": "A short plucked voice at the written pitch with a send to the same reverb."
+  },
+  "mp3_duration_seconds": 39.209796,
+  "mp3_encode_command": [
+    "ffmpeg",
+    "-y",
+    "-loglevel",
+    "error",
+    "-i",
+    "build/preview.wav",
+    "-c:a",
+    "libmp3lame",
+    "-b:a",
+    "192k",
+    "preview/preview.mp3"
+  ],
+  "mp3_sha256": "c0e3ae276d051db4b25cb0f108837d42b0f4bd037d98e520e1f913ce8f1b9ec6",
+  "sample_peak_linear": 0.3739,
+  "synth": "claude-simple-synth-1.0.0",
+  "timbre": {
+    "bass": "sub",
+    "keys": "epiano",
+    "kick": "808",
+    "motif": "bell",
+    "pad": "pad",
+    "seq": "tri",
+    "verb": 0.45
+  }
+}

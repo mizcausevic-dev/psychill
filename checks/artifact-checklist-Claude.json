@@ -1,0 +1,71 @@
+{
+  "items": [
+    {
+      "claim": "All MIDI files pass the pack validator",
+      "evidence": "52 files checked, 0 errors, validator claude-validate-1.0.0",
+      "id": "midi-validation",
+      "status": "passed"
+    },
+    {
+      "claim": "A second MIDI parser (mido) agrees on note counts and file type",
+      "evidence": "Checked per part file in midi/validation-Claude.json",
+      "id": "second-parser",
+      "status": "passed"
+    },
+    {
+      "claim": "The validator rejects a bad file and accepts a good file",
+      "evidence": "negative control rejected: True, positive control accepted: True",
+      "id": "controls",
+      "status": "passed"
+    },
+    {
+      "claim": "Preview MP3 present and probed",
+      "evidence": "39.210 seconds, sha256 c0e3ae276d051db4b25cb0f108837d42b0f4bd037d98e520e1f913ce8f1b9ec6",
+      "id": "preview-audio",
+      "status": "passed"
+    },
+    {
+      "claim": "Preview film present and probed",
+      "evidence": "39.183 seconds, streams h264, aac",
+      "id": "film",
+      "status": "passed"
+    },
+    {
+      "claim": "Required statements appear in README, index page, film and catalog",
+      "evidence": "Checked by the repository verifier at build time",
+      "id": "statements",
+      "status": "passed"
+    },
+    {
+      "claim": "Every image has alt text",
+      "evidence": "art, social and media pages carry alt text",
+      "id": "alt-text",
+      "status": "passed"
+    },
+    {
+      "claim": "A person listened to the parts",
+      "evidence": "No human listening audition was performed for this build.",
+      "id": "listening-audition",
+      "status": "not performed"
+    },
+    {
+      "claim": "A license is chosen",
+      "evidence": "No license is set. The owner must choose one.",
+      "id": "license",
+      "status": "open"
+    },
+    {
+      "claim": "The catalog address responds",
+      "evidence": "Pages must be enabled by the owner. See docs/publication-plan-Claude.md",
+      "id": "pages-live",
+      "status": "not checked"
+    },
+    {
+      "claim": "Store terms checked",
+      "evidence": "Depends on the store chosen",
+      "id": "marketplace-terms",
+      "status": "not checked"
+    }
+  ],
+  "pack": "psychill"
+}

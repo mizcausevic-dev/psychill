@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Psychill media</title><style>
+:root{--bg:#0b2b26;--ac:#8ab17d;--tx:#f5f5f5;--mu:#c9c9d0;--pn:rgba(255,255,255,.07);--ln:rgba(255,255,255,.22)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--ac)}
+a:focus-visible,button:focus-visible,audio:focus-visible,canvas:focus-visible{outline:3px solid #fff;outline-offset:2px}
+header,main,footer{max-width:60rem;margin:0 auto;padding:0 1rem}
+header img{width:100%;height:auto;display:block;border-radius:10px;margin-top:1rem}
+h1{font-size:clamp(1.8rem,5vw,2.8rem);margin:.8rem 0 .2rem}
+h2{font-size:1.35rem;margin:2rem 0 .6rem}
+.lede{color:var(--mu);max-width:44rem}
+.note{border:1px solid var(--ln);background:var(--pn);border-radius:8px;padding:.7rem 1rem;margin:1rem 0}
+.tabs{display:flex;flex-wrap:wrap;gap:.5rem;margin:.5rem 0}
+button.tab{background:transparent;color:var(--tx);border:1px solid var(--ln);border-radius:999px;padding:.5rem 1rem;font:inherit;cursor:pointer;min-height:44px}
+button.tab[aria-pressed=true]{background:var(--ac);color:#000;border-color:var(--ac);font-weight:700}
+canvas{width:100%;height:auto;background:rgba(0,0,0,.35);border:1px solid var(--ln);border-radius:8px;display:block}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:.8rem}
+.card{border:1px solid var(--ln);background:var(--pn);border-radius:8px;padding:.8rem 1rem}
+table{border-collapse:collapse;width:100%;font-size:.92rem}
+th,td{border-bottom:1px solid var(--ln);padding:.4rem .5rem;text-align:left;vertical-align:top}
+.scroll{overflow-x:auto}
+.legend{display:flex;flex-wrap:wrap;gap:.3rem 1rem;margin:.5rem 0;padding:0;list-style:none;font-size:.9rem}
+.legend i{display:inline-block;width:.9rem;height:.9rem;border-radius:3px;margin-right:.35rem;vertical-align:-.1rem}
+footer{padding-bottom:3rem;color:var(--mu);font-size:.9rem}
+audio{width:100%}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+</style></head>
+<body><header><h1>Psychill media</h1>
+<p class="lede">Film, images and draft posts. Nothing here has been posted. No human listening audition was performed for this build.</p>
+<p><a href="index.html">Back to the catalog</a></p></header>
+<main>
+<h2>Preview film</h2>
+<video controls preload="none" width="1280" height="720" poster="film/poster.jpg" style="width:100%;height:auto;border-radius:8px">
+<source src="film/preview.mp4" type="video/mp4"><track kind="captions" src="film/preview.vtt" srclang="en" label="English" default>
+Your browser does not play video. The file is film/preview.mp4.</video>
+<p>The film shows preview, not master. Its sound is the same preview as the MP3.</p>
+<h2>Images</h2>
+<div class="grid">
+<figure class="card"><img src="art/square.jpg" width="1080" height="1080" style="width:100%;height:auto" alt="Square version of the illustration, drawn again at 1080 by 1080. Illustration of layered green hills at night with six small amber lights and scattered pale dots. Not a photograph of a studio or of performers."><figcaption>art/square.jpg, 1080 by 1080</figcaption></figure>
+<figure class="card"><img src="social/instagram-Claude/portrait.jpg" width="1080" height="1350" style="width:100%;height:auto" alt="Vertical version of the illustration, drawn again at 1080 by 1350. Illustration of layered green hills at night with six small amber lights and scattered pale dots. Not a photograph of a studio or of performers."><figcaption>social/instagram-Claude/portrait.jpg, 1080 by 1350</figcaption></figure>
+<figure class="card"><img src="social/x-Claude/card.jpg" width="1200" height="675" style="width:100%;height:auto" alt="Wide version of the illustration, drawn again at 1200 by 675. Illustration of layered green hills at night with six small amber lights and scattered pale dots. Not a photograph of a studio or of performers."><figcaption>social/x-Claude/card.jpg, 1200 by 675</figcaption></figure>
+</div>
+<h2>Draft X post</h2>
+<p class="note">Psychill kits: Moss Lantern 98, Slow Spores 92, Amber Drift 104, Night Garden 96. Preview is Moss Lantern bars 17-32 at 98 BPM, 39.210 seconds. preview, not a master. The film shows preview, not master. No human listening audition was performed for this build.</p>
+<p><a href="social/instagram-Claude/captions-Claude.md">Instagram caption draft</a> | <a href="articles/medium-draft-Claude.md">Article draft</a></p>
+</main><footer><p>The GitHub repository is https://github.com/mizcausevic-dev/psychill and it is public. The catalog address is https://mizcausevic-dev.github.io/psychill/ . Treat that address as live only after it responds.</p></footer></body></html>

@@ -1,0 +1,654 @@
+{
+  "about": "Slow psychedelic downtempo: half-time drums, ninth chords, soft bell motifs and long pads in the 90 to 105 BPM range.",
+  "catalog_address": "https://mizcausevic-dev.github.io/psychill/",
+  "counts": {
+    "arrangements": 4,
+    "kits": 4,
+    "midi_files": 52,
+    "part_files": 48
+  },
+  "film": {
+    "captions": "film/preview.vtt",
+    "duration": 39.182993,
+    "path": "film/preview.mp4",
+    "poster": "film/poster.jpg"
+  },
+  "format": {
+    "arrangement_bars": 32,
+    "arrangement_format": 1,
+    "channels": {
+      "bass": 1,
+      "drums": 10,
+      "keys": 2,
+      "motif": 3,
+      "pad": 5,
+      "sequence": 4
+    },
+    "part_bars": 8,
+    "part_format": 0,
+    "ppq": 960,
+    "ranges": {
+      "bass": [
+        36,
+        55
+      ],
+      "keys": [
+        48,
+        76
+      ],
+      "motif": [
+        60,
+        86
+      ],
+      "pad": [
+        48,
+        81
+      ],
+      "sequence": [
+        52,
+        81
+      ]
+    },
+    "time_signature": "4/4"
+  },
+  "kits": [
+    {
+      "arrangement": {
+        "container_bars": 32,
+        "description": "Moss Lantern arranged over 32 bars. Each musical track is one or more copies of the 8-bar part, placed at the listed bar offsets (zero based).",
+        "path": "midi/k01-moss-lantern/arrangement.mid",
+        "placements": {
+          "bass.a": [
+            0,
+            8
+          ],
+          "bass.b": [
+            24
+          ],
+          "drums.a": [
+            0,
+            8
+          ],
+          "drums.b": [
+            24
+          ],
+          "keys.a": [
+            0,
+            8,
+            24
+          ],
+          "keys.b": [
+            16
+          ],
+          "motif.a": [
+            0,
+            24
+          ],
+          "pad.a": [
+            0,
+            8,
+            24
+          ],
+          "pad.b": [
+            16
+          ],
+          "sequence.a": [
+            8
+          ],
+          "sequence.b": [
+            16
+          ]
+        },
+        "sha256": "ae21e36877ed253ca442cc856d5fdf346c535525dd89fa3fd461ce4ae8a58d28"
+      },
+      "bpm": 98,
+      "id": "k01",
+      "key": "A",
+      "mode": "dorian",
+      "name": "Moss Lantern",
+      "parts": [
+        {
+          "notes": 119,
+          "path": "midi/k01-moss-lantern/drums-a.mid",
+          "role": "drums",
+          "sha256": "f8814bcfe56ea605ac7b2c18a7bd39580cb8e626d64a08bc87f877484f614c68",
+          "variation": "a"
+        },
+        {
+          "notes": 176,
+          "path": "midi/k01-moss-lantern/drums-b.mid",
+          "role": "drums",
+          "sha256": "1b8da227c488e12aae1942b68dd37624c300753a5d3b9c3362ee27d70904477e",
+          "variation": "b"
+        },
+        {
+          "notes": 24,
+          "path": "midi/k01-moss-lantern/bass-a.mid",
+          "role": "bass",
+          "sha256": "d64d994200b2c865d7c84d1593577232d3618f8bf31c24043656da27c0ef8ffe",
+          "variation": "a"
+        },
+        {
+          "notes": 32,
+          "path": "midi/k01-moss-lantern/bass-b.mid",
+          "role": "bass",
+          "sha256": "d8035db94bb4fdd9eba495bcb8f8dbf9397afcc037fab1be6d83200e4af7c8aa",
+          "variation": "b"
+        },
+        {
+          "notes": 64,
+          "path": "midi/k01-moss-lantern/keys-a.mid",
+          "role": "keys",
+          "sha256": "8eb6de272c34965cbc43002adcc42e4e6ca505e387a356b8dcdfe5d927181810",
+          "variation": "a"
+        },
+        {
+          "notes": 128,
+          "path": "midi/k01-moss-lantern/keys-b.mid",
+          "role": "keys",
+          "sha256": "cdfb87a381db65e6acb806514e94f2f855621602b6deb3b839f2b056e69d4f0e",
+          "variation": "b"
+        },
+        {
+          "notes": 28,
+          "path": "midi/k01-moss-lantern/motif-a.mid",
+          "role": "motif",
+          "sha256": "26b24b59b7a71d63b63218106794215978c339f72d4a790ba8f4a3e6be313e26",
+          "variation": "a"
+        },
+        {
+          "notes": 30,
+          "path": "midi/k01-moss-lantern/motif-b.mid",
+          "role": "motif",
+          "sha256": "0a8d8ac73346c9de7e30b869b060d83b2e56fb41be2141662374705572c81753",
+          "variation": "b"
+        },
+        {
+          "notes": 64,
+          "path": "midi/k01-moss-lantern/sequence-a.mid",
+          "role": "sequence",
+          "sha256": "0cb302ce91c0b47dbb737c0b3dcadf5d639e239b41fcee004323d2c118dc8907",
+          "variation": "a"
+        },
+        {
+          "notes": 24,
+          "path": "midi/k01-moss-lantern/sequence-b.mid",
+          "role": "sequence",
+          "sha256": "1a351097a761ab8cbcff8e30e41c3492713578fed0898baf185d54c1c37cdc6c",
+          "variation": "b"
+        },
+        {
+          "notes": 16,
+          "path": "midi/k01-moss-lantern/pad-a.mid",
+          "role": "pad",
+          "sha256": "9b08c4858953d5d3875cf7d5f09672c2f86b5c6bcd30933b4eea94935994ad51",
+          "variation": "a"
+        },
+        {
+          "notes": 32,
+          "path": "midi/k01-moss-lantern/pad-b.mid",
+          "role": "pad",
+          "sha256": "35d1d70aa0ed629e48d9ab083a431cf22937edb7a19af944fa5941ae4e54d7fc",
+          "variation": "b"
+        }
+      ],
+      "progression": "Am9 (2 bars) | D9 (2 bars) | Am9 (2 bars) | Em7 (2 bars)"
+    },
+    {
+      "arrangement": {
+        "container_bars": 32,
+        "description": "Slow Spores arranged over 32 bars. Each musical track is one or more copies of the 8-bar part, placed at the listed bar offsets (zero based).",
+        "path": "midi/k02-slow-spores/arrangement.mid",
+        "placements": {
+          "bass.a": [
+            0,
+            8
+          ],
+          "bass.b": [
+            24
+          ],
+          "drums.a": [
+            0,
+            8
+          ],
+          "drums.b": [
+            24
+          ],
+          "keys.a": [
+            0,
+            8,
+            24
+          ],
+          "keys.b": [
+            16
+          ],
+          "motif.a": [
+            0,
+            24
+          ],
+          "pad.a": [
+            0,
+            8,
+            24
+          ],
+          "pad.b": [
+            16
+          ],
+          "sequence.a": [
+            8
+          ],
+          "sequence.b": [
+            16
+          ]
+        },
+        "sha256": "c0472122d705ae8aa2620413da7ce986879905c1e6c1b05741b60f76934ad46b"
+      },
+      "bpm": 92,
+      "id": "k02",
+      "key": "E",
+      "mode": "aeolian",
+      "name": "Slow Spores",
+      "parts": [
+        {
+          "notes": 119,
+          "path": "midi/k02-slow-spores/drums-a.mid",
+          "role": "drums",
+          "sha256": "0c651e27b81989c532c6d64fdfbd1793f6c8961a456ea5c92988bf4fa5ca2dc1",
+          "variation": "a"
+        },
+        {
+          "notes": 176,
+          "path": "midi/k02-slow-spores/drums-b.mid",
+          "role": "drums",
+          "sha256": "14e264864d7e91eed66cfe64249ccf57d3a5bc580634682161f24a88cfbde66a",
+          "variation": "b"
+        },
+        {
+          "notes": 24,
+          "path": "midi/k02-slow-spores/bass-a.mid",
+          "role": "bass",
+          "sha256": "052570b5240c34286d378c7b2a0d1685637eae5cba466e87db155dbbc441a277",
+          "variation": "a"
+        },
+        {
+          "notes": 32,
+          "path": "midi/k02-slow-spores/bass-b.mid",
+          "role": "bass",
+          "sha256": "9747b16125496e383f16835b118236c89df17e2a8f2781a8304b03b3530c1391",
+          "variation": "b"
+        },
+        {
+          "notes": 64,
+          "path": "midi/k02-slow-spores/keys-a.mid",
+          "role": "keys",
+          "sha256": "fe79e15e40e96315bea5220211b1a7b3cbad7f0b2ef239a590c25a116a413629",
+          "variation": "a"
+        },
+        {
+          "notes": 128,
+          "path": "midi/k02-slow-spores/keys-b.mid",
+          "role": "keys",
+          "sha256": "417099101f17cd6a7340b1a11b7b37fee39db130f172cb6c445be02200953164",
+          "variation": "b"
+        },
+        {
+          "notes": 25,
+          "path": "midi/k02-slow-spores/motif-a.mid",
+          "role": "motif",
+          "sha256": "7b9f6bad94f8e07b9a94e63b967dcd0c3765e1be2c807f9563c5f4d652e559cf",
+          "variation": "a"
+        },
+        {
+          "notes": 30,
+          "path": "midi/k02-slow-spores/motif-b.mid",
+          "role": "motif",
+          "sha256": "d598b3591cd6992d7b43a75c6593816acaad337cdec396c756b7259020f52889",
+          "variation": "b"
+        },
+        {
+          "notes": 64,
+          "path": "midi/k02-slow-spores/sequence-a.mid",
+          "role": "sequence",
+          "sha256": "fad1011124577f2c6f1ff99399e73335cffb15385561146c455975b85467979f",
+          "variation": "a"
+        },
+        {
+          "notes": 24,
+          "path": "midi/k02-slow-spores/sequence-b.mid",
+          "role": "sequence",
+          "sha256": "1e8be7238e743af14b8d6f6f4b3f66828acbb7b3170ab3ea4c0512592becedb7",
+          "variation": "b"
+        },
+        {
+          "notes": 16,
+          "path": "midi/k02-slow-spores/pad-a.mid",
+          "role": "pad",
+          "sha256": "c69b34f4c7e2848f192a6dd407f2f8fb28b393321f7f8ad3bd6cb0f4e6985ef8",
+          "variation": "a"
+        },
+        {
+          "notes": 32,
+          "path": "midi/k02-slow-spores/pad-b.mid",
+          "role": "pad",
+          "sha256": "744735b0215f071f0e7184f6605a13a3a42316ee2bd2ced644f4f6e51e5d03f6",
+          "variation": "b"
+        }
+      ],
+      "progression": "Em7 (2 bars) | Cmaj7 (2 bars) | Am7 (2 bars) | B7 (2 bars)"
+    },
+    {
+      "arrangement": {
+        "container_bars": 32,
+        "description": "Amber Drift arranged over 32 bars. Each musical track is one or more copies of the 8-bar part, placed at the listed bar offsets (zero based).",
+        "path": "midi/k03-amber-drift/arrangement.mid",
+        "placements": {
+          "bass.a": [
+            0,
+            8
+          ],
+          "bass.b": [
+            24
+          ],
+          "drums.a": [
+            0,
+            8
+          ],
+          "drums.b": [
+            24
+          ],
+          "keys.a": [
+            0,
+            8,
+            24
+          ],
+          "keys.b": [
+            16
+          ],
+          "motif.a": [
+            0,
+            24
+          ],
+          "pad.a": [
+            0,
+            8,
+            24
+          ],
+          "pad.b": [
+            16
+          ],
+          "sequence.a": [
+            8
+          ],
+          "sequence.b": [
+            16
+          ]
+        },
+        "sha256": "fe8c49f60206b0c18efad5f8203668f52addf9bcc0871a5f53c8b6569c911b91"
+      },
+      "bpm": 104,
+      "id": "k03",
+      "key": "D",
+      "mode": "dorian",
+      "name": "Amber Drift",
+      "parts": [
+        {
+          "notes": 119,
+          "path": "midi/k03-amber-drift/drums-a.mid",
+          "role": "drums",
+          "sha256": "b1fa3f2cb0e378c7aba938ab6d4509ff41fc9f10e8581be7eee1f9a3ee147713",
+          "variation": "a"
+        },
+        {
+          "notes": 176,
+          "path": "midi/k03-amber-drift/drums-b.mid",
+          "role": "drums",
+          "sha256": "f9f67b829731222423b02e38342de97ffb7c215c629e826bd795558eeca8610a",
+          "variation": "b"
+        },
+        {
+          "notes": 24,
+          "path": "midi/k03-amber-drift/bass-a.mid",
+          "role": "bass",
+          "sha256": "287966337c459b73c3690cda4c98e99fbd2608512537d917656aee8d032a886a",
+          "variation": "a"
+        },
+        {
+          "notes": 32,
+          "path": "midi/k03-amber-drift/bass-b.mid",
+          "role": "bass",
+          "sha256": "946d6ce6efa73ed4a80e3f9ea8125908432de52f51a7d6278c4d0dc09aa73dc3",
+          "variation": "b"
+        },
+        {
+          "notes": 64,
+          "path": "midi/k03-amber-drift/keys-a.mid",
+          "role": "keys",
+          "sha256": "4a8bf43123fbecb5096fad4e27dbd6a11399425e1291199976cb5dfd643fb0de",
+          "variation": "a"
+        },
+        {
+          "notes": 128,
+          "path": "midi/k03-amber-drift/keys-b.mid",
+          "role": "keys",
+          "sha256": "1a616b3ba6b4acf4fd0ec95bbf5a3e29efa0aacde1bbcdb6d54d3d72470325cc",
+          "variation": "b"
+        },
+        {
+          "notes": 22,
+          "path": "midi/k03-amber-drift/motif-a.mid",
+          "role": "motif",
+          "sha256": "9754dd479fca6a45b54c9043eddaf3afda5f57e95e7e381cdd52b5e73182f685",
+          "variation": "a"
+        },
+        {
+          "notes": 30,
+          "path": "midi/k03-amber-drift/motif-b.mid",
+          "role": "motif",
+          "sha256": "3b55f2f395475749157b67ab8875f5ff8d105f308cb0044dda92557211eebacc",
+          "variation": "b"
+        },
+        {
+          "notes": 64,
+          "path": "midi/k03-amber-drift/sequence-a.mid",
+          "role": "sequence",
+          "sha256": "912b1e1476ecca4cbb8250af49bcdcb707d34d78c1c944a332ecb8d9eeb50e8b",
+          "variation": "a"
+        },
+        {
+          "notes": 24,
+          "path": "midi/k03-amber-drift/sequence-b.mid",
+          "role": "sequence",
+          "sha256": "4c2f4452d287c8a6c1e112cb037ea0b391f3541e514700b56ad4a062f9fed99b",
+          "variation": "b"
+        },
+        {
+          "notes": 12,
+          "path": "midi/k03-amber-drift/pad-a.mid",
+          "role": "pad",
+          "sha256": "1c718d81aa16885048269df0468b741ba2799a696dfb69ef02f2b379e06eb10b",
+          "variation": "a"
+        },
+        {
+          "notes": 32,
+          "path": "midi/k03-amber-drift/pad-b.mid",
+          "role": "pad",
+          "sha256": "bd6b76e0275a02f9f56d98c2863eeb9fa62d52222a33a30b086dc988f58a2a0a",
+          "variation": "b"
+        }
+      ],
+      "progression": "Dm9 (4 bars) | G13 (2 bars) | Dm9 (2 bars)"
+    },
+    {
+      "arrangement": {
+        "container_bars": 32,
+        "description": "Night Garden arranged over 32 bars. Each musical track is one or more copies of the 8-bar part, placed at the listed bar offsets (zero based).",
+        "path": "midi/k04-night-garden/arrangement.mid",
+        "placements": {
+          "bass.a": [
+            0,
+            8
+          ],
+          "bass.b": [
+            24
+          ],
+          "drums.a": [
+            0,
+            8
+          ],
+          "drums.b": [
+            24
+          ],
+          "keys.a": [
+            0,
+            8,
+            24
+          ],
+          "keys.b": [
+            16
+          ],
+          "motif.a": [
+            0,
+            24
+          ],
+          "pad.a": [
+            0,
+            8,
+            24
+          ],
+          "pad.b": [
+            16
+          ],
+          "sequence.a": [
+            8
+          ],
+          "sequence.b": [
+            16
+          ]
+        },
+        "sha256": "e7ad8d75b2259f90fe13d1a0c91f73c5eb1edb36e4651a5c0b442366fdaafac6"
+      },
+      "bpm": 96,
+      "id": "k04",
+      "key": "G",
+      "mode": "mixolydian",
+      "name": "Night Garden",
+      "parts": [
+        {
+          "notes": 119,
+          "path": "midi/k04-night-garden/drums-a.mid",
+          "role": "drums",
+          "sha256": "9bd545ece6f570a5feb7eae0725e4b54ef1e7a451ccd4fa93a3435b4990ddb47",
+          "variation": "a"
+        },
+        {
+          "notes": 176,
+          "path": "midi/k04-night-garden/drums-b.mid",
+          "role": "drums",
+          "sha256": "c74416e30a1e9369df8d6fc2283ced2163b6152ab04e0ec18ff87d0a5858c197",
+          "variation": "b"
+        },
+        {
+          "notes": 24,
+          "path": "midi/k04-night-garden/bass-a.mid",
+          "role": "bass",
+          "sha256": "0055d0caa6402f94733dc27022a7cd88ba02f16a04dab2001dd14891cec33e55",
+          "variation": "a"
+        },
+        {
+          "notes": 32,
+          "path": "midi/k04-night-garden/bass-b.mid",
+          "role": "bass",
+          "sha256": "599b087dbe9026e8bbaca43de401bbabcb42e293e9e1e17e04765e660fb209e9",
+          "variation": "b"
+        },
+        {
+          "notes": 64,
+          "path": "midi/k04-night-garden/keys-a.mid",
+          "role": "keys",
+          "sha256": "1a475199aefd19e956db3946f04ee19683ccc5d58fdf3863af6de030de1269bc",
+          "variation": "a"
+        },
+        {
+          "notes": 128,
+          "path": "midi/k04-night-garden/keys-b.mid",
+          "role": "keys",
+          "sha256": "70332158d238acafb01820bc778d2a31b7fff1793a3915b7d14d645ade1f3f2d",
+          "variation": "b"
+        },
+        {
+          "notes": 29,
+          "path": "midi/k04-night-garden/motif-a.mid",
+          "role": "motif",
+          "sha256": "734db59ebc59a4960853d322323d0514eca1331ca4c989b93b1df792451db8cc",
+          "variation": "a"
+        },
+        {
+          "notes": 30,
+          "path": "midi/k04-night-garden/motif-b.mid",
+          "role": "motif",
+          "sha256": "9f6b9ab3e2477c3d4f2300d01f75fec924da0a9bb57abbe4083f3c3cb5a85809",
+          "variation": "b"
+        },
+        {
+          "notes": 64,
+          "path": "midi/k04-night-garden/sequence-a.mid",
+          "role": "sequence",
+          "sha256": "77bb93128380386ab9d6c4277dccdbcdc5d909e63c1606e3ebfbfebca65feb95",
+          "variation": "a"
+        },
+        {
+          "notes": 24,
+          "path": "midi/k04-night-garden/sequence-b.mid",
+          "role": "sequence",
+          "sha256": "a48a6e1809ca2d3521977b5d8c2aec0b4b055c9dff02f045b876c3690af6a584",
+          "variation": "b"
+        },
+        {
+          "notes": 16,
+          "path": "midi/k04-night-garden/pad-a.mid",
+          "role": "pad",
+          "sha256": "6133dcb11f5117cc5a876f8c76b9763c878cd446d99d286746e73d8c95aab06b",
+          "variation": "a"
+        },
+        {
+          "notes": 32,
+          "path": "midi/k04-night-garden/pad-b.mid",
+          "role": "pad",
+          "sha256": "1e8137d32cad71d3e50a66a04daad8607030d9411ab735f9bd21bd1a726dfd7b",
+          "variation": "b"
+        }
+      ],
+      "progression": "G9 (2 bars) | Fmaj7 (2 bars) | Cmaj9 (2 bars) | G9 (2 bars)"
+    }
+  ],
+  "pack": "psychill",
+  "preview": {
+    "bar_first": 17,
+    "bar_last": 32,
+    "bpm": 98,
+    "duration": 39.209796,
+    "kit_id": "k01",
+    "manifest": "preview/preview-manifest-Claude.txt",
+    "path": "preview/preview.mp3",
+    "sha256": "c0e3ae276d051db4b25cb0f108837d42b0f4bd037d98e520e1f913ce8f1b9ec6"
+  },
+  "repository": "https://github.com/mizcausevic-dev/psychill",
+  "statements": {
+    "audition": "No human listening audition was performed for this build.",
+    "license": "No license is set.",
+    "on_picture": "preview, not master",
+    "preview": "preview, not a master",
+    "program_changes": "No program changes are encoded. A conventional GM player will normally use its default piano program for pitched channels unless configured otherwise; compatible GM channel 10 percussion is treated separately. Player behavior may vary.",
+    "publication": "The GitHub repository is https://github.com/mizcausevic-dev/psychill and it is public. The catalog address is https://mizcausevic-dev.github.io/psychill/ . Treat that address as live only after it responds.",
+    "warning": "Use either the combined arrangement or the separate parts. Do not stack the part files on top of the combined file."
+  },
+  "tags": [
+    "midi",
+    "psychill",
+    "downtempo",
+    "chillout",
+    "music-production"
+  ],
+  "title": "Psychill",
+  "validation": "midi/validation-Claude.json"
+}

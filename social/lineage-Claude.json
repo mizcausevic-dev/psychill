@@ -1,0 +1,57 @@
+{
+  "generator": "generator/art.py",
+  "images": {
+    "art/hero.jpg": {
+      "sha256": "5ca832b40b3d225cba458db1404cd8d387bedc774d77f768404da2bacdb8b543",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    "art/square.jpg": {
+      "sha256": "683fbcc01510ff5cd7347027a2ab5ab6fceaa6860788013025874f16d10ec53f",
+      "size": [
+        1080,
+        1080
+      ]
+    },
+    "film/poster.jpg": {
+      "sha256": "6a3529241aeeb49fbe506729ec621440ea480bcb977e9473ff4fee93a0311d7f",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    "social/instagram-Claude/portrait.jpg": {
+      "sha256": "683c9cbce39f2804e2aef2062d3dd69496b5a5b7d50522e2b609e44d585f8f23",
+      "size": [
+        1080,
+        1350
+      ]
+    },
+    "social/instagram-Claude/square.jpg": {
+      "sha256": "683fbcc01510ff5cd7347027a2ab5ab6fceaa6860788013025874f16d10ec53f",
+      "size": [
+        1080,
+        1080
+      ]
+    },
+    "social/x-Claude/card.jpg": {
+      "sha256": "8d254efde11f4e70cda974e6666d1cca61ae75922c018c7da629a8de82cbc66c",
+      "size": [
+        1200,
+        675
+      ]
+    }
+  },
+  "note": "Every image is drawn by code from the same scene and palette. No photograph and no external artwork is used.",
+  "palette": [
+    "#0b2b26",
+    "#8ab17d",
+    "#e9c46a",
+    "#2a9d8f",
+    "#f1faee"
+  ],
+  "scene": "moss",
+  "seed": 802721
+}
